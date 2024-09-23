@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TipCalculator</string>
+    <string name="edit_text_hint">Enter Bill Amount</string>
+    <string name="fifteen_percent">15%</string>
+    <string name="eighteen_percent">18%</string>
+    <string name="twenty_percent">20%</string>
+    <string name="tip_amount">Tip Amount: $0.00</string>
+</resources>
