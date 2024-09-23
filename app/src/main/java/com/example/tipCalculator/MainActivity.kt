@@ -17,12 +17,15 @@ class MainActivity : AppCompatActivity() {
 		setContentView(binding.root)
 
 		binding.button15.setOnClickListener{
+			binding.button15.setBackgroundColor(resources.getColor(R.color.button_pressed_color, null))
 			calculateTip(0.15)
 		}
 		binding.button18.setOnClickListener {
+			binding.button15.setBackgroundColor(resources.getColor(R.color.button_pressed_color, null))
 			calculateTip(0.18)
 		}
 		binding.button20.setOnClickListener {
+			binding.button15.setBackgroundColor(resources.getColor(R.color.button_pressed_color, null))
 			calculateTip(0.20)
 		}
 	}
